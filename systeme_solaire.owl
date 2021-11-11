@@ -1,0 +1,2146 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/IA301/ontologies/2021/11/systeme_solaire"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/IA301/ontologies/2021/11/systeme_solaire">
+    <Prefix name="" IRI="http://www.semanticweb.org/IA301/ontologies/2021/11/systeme_solaire#"/>
+    <Prefix name="g" IRI="http://www.semanticweb.org/IA301/ontologies/2021/11/systeme_solaire/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Astres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Astéroïdes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ceinture_de_Kuiper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comètes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etoile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nuage_de_Oort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Objet-Transneptuniens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjetsArtificiels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planètes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Satellites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sonde"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aCommeSatellite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aEtéVisitéPar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aVisité"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aMoinsDeSatellitesQue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#aUneActivitéInterne"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#couleur"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#densité"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#distance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#développeUneQueue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#engendreDesRéactionsNucléaires"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#forme"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gazeuse"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#irrégulière"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#masse"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nature"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#possèdeDesAnneaux"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#possèdeUneAtmosphère"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#périodeDeRotation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#périodeDeRévolution"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rayon"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#sphérique"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tellurique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Callisto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cassini_Huygens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Charon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comète_de_Halley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cérès"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dawn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deep_Impact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deimos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dioné"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Encelade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Epiméthée"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eros"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Europe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Galileo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ganymède"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giotto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hale-Bopp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hayabusa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Haykutake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hygie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hyperion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Io"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Itokawa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Juno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jupiter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lune"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magellan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Makémaké"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mariner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mars"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Maven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mercure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mimas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Miranda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Near_Schoemaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neowise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neptune"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#New_Horizon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Obéron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pallas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phobos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pioneer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pluton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Protée"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rhéa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rosetta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saturne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sedna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soleil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stardust"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tchoury"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tempel_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Terre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Titan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Titania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Triton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Uranus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vega"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Venera"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Venus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vesta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Viking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Voyager_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Voyager_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wild"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Change&apos;e"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Astéroïdes"/>
+        <Class IRI="#Astres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ceinture_de_Kuiper"/>
+        <Class IRI="#Astres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comètes"/>
+        <Class IRI="#Nuage_de_Oort"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Etoile"/>
+        <Class IRI="#Astres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nuage_de_Oort"/>
+        <Class IRI="#Astres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Objet-Transneptuniens"/>
+        <Class IRI="#Ceinture_de_Kuiper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planètes"/>
+        <Class IRI="#Astres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Satellites"/>
+        <Class IRI="#Astres"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sonde"/>
+        <Class IRI="#ObjetsArtificiels"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Astéroïdes"/>
+        <Class IRI="#Planètes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ceinture_de_Kuiper"/>
+        <Class IRI="#Planètes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Etoile"/>
+        <Class IRI="#Planètes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Nuage_de_Oort"/>
+        <Class IRI="#Planètes"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Planètes"/>
+        <Class IRI="#Satellites"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Planètes"/>
+        <Class IRI="#Sonde"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Objet-Transneptuniens"/>
+        <NamedIndividual IRI="#Albion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Astéroïdes"/>
+        <NamedIndividual IRI="#Callisto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Cassini_Huygens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objet-Transneptuniens"/>
+        <NamedIndividual IRI="#Charon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comètes"/>
+        <NamedIndividual IRI="#Comète_de_Halley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Astéroïdes"/>
+        <NamedIndividual IRI="#Cérès"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Dawn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Deep_Impact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Deimos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Encelade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Epiméthée"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objet-Transneptuniens"/>
+        <NamedIndividual IRI="#Eris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Astéroïdes"/>
+        <NamedIndividual IRI="#Eros"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Galileo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Ganymède"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Giotto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comètes"/>
+        <NamedIndividual IRI="#Hale-Bopp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Hayabusa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comètes"/>
+        <NamedIndividual IRI="#Haykutake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Astéroïdes"/>
+        <NamedIndividual IRI="#Hygie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Hyperion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Io"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Astéroïdes"/>
+        <NamedIndividual IRI="#Itokawa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Juno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planètes"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Luna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Lune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Magellan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objet-Transneptuniens"/>
+        <NamedIndividual IRI="#Makémaké"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Mariner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planètes"/>
+        <NamedIndividual IRI="#Mars"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Maven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planètes"/>
+        <NamedIndividual IRI="#Mercure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Mimas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Miranda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Near_Schoemaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comètes"/>
+        <NamedIndividual IRI="#Neowise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planètes"/>
+        <NamedIndividual IRI="#Neptune"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#New_Horizon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Obéron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Astéroïdes"/>
+        <NamedIndividual IRI="#Pallas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Phobos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Pioneer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objet-Transneptuniens"/>
+        <NamedIndividual IRI="#Pluton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Protée"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Rhéa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Rosetta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planètes"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Objet-Transneptuniens"/>
+        <NamedIndividual IRI="#Sedna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Etoile"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Stardust"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comètes"/>
+        <NamedIndividual IRI="#Tchoury"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comètes"/>
+        <NamedIndividual IRI="#Tempel_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planètes"/>
+        <NamedIndividual IRI="#Terre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Titan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Titania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Satellites"/>
+        <NamedIndividual IRI="#Triton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planètes"/>
+        <NamedIndividual IRI="#Uranus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Vega"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Venera"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Planètes"/>
+        <NamedIndividual IRI="#Venus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Astéroïdes"/>
+        <NamedIndividual IRI="#Vesta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Viking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Voyager_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Voyager_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comètes"/>
+        <NamedIndividual IRI="#Wild"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sonde"/>
+        <NamedIndividual IRI="#Change&apos;e"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Albion"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Callisto"/>
+        <NamedIndividual IRI="#Cérès"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Callisto"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Callisto"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Cassini_Huygens"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Cassini_Huygens"/>
+        <NamedIndividual IRI="#Titan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Charon"/>
+        <NamedIndividual IRI="#Pluton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Charon"/>
+        <NamedIndividual IRI="#Pluton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Comète_de_Halley"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Cérès"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Dawn"/>
+        <NamedIndividual IRI="#Cérès"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Deep_Impact"/>
+        <NamedIndividual IRI="#Tempel_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Deimos"/>
+        <NamedIndividual IRI="#Cérès"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Deimos"/>
+        <NamedIndividual IRI="#Mars"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Deimos"/>
+        <NamedIndividual IRI="#Mars"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Dioné"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Dioné"/>
+        <NamedIndividual IRI="#Dioné"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Encelade"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Encelade"/>
+        <NamedIndividual IRI="#Hyperion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Encelade"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Epiméthée"/>
+        <NamedIndividual IRI="#Cérès"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Epiméthée"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Epiméthée"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Eris"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Eros"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Europe"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Europe"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Galileo"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Ganymède"/>
+        <NamedIndividual IRI="#Cérès"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Ganymède"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Ganymède"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Giotto"/>
+        <NamedIndividual IRI="#Comète_de_Halley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Hale-Bopp"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Hayabusa"/>
+        <NamedIndividual IRI="#Itokawa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Haykutake"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Hygie"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Hyperion"/>
+        <NamedIndividual IRI="#Cérès"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Hyperion"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Io"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Io"/>
+        <NamedIndividual IRI="#Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Io"/>
+        <NamedIndividual IRI="#Ganymède"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Io"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Itokawa"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Juno"/>
+        <NamedIndividual IRI="#Io"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Juno"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <NamedIndividual IRI="#Neptune"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <NamedIndividual IRI="#Uranus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Luna"/>
+        <NamedIndividual IRI="#Lune"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Lune"/>
+        <NamedIndividual IRI="#Cérès"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Lune"/>
+        <NamedIndividual IRI="#Terre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Lune"/>
+        <NamedIndividual IRI="#Terre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Magellan"/>
+        <NamedIndividual IRI="#Venus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Makémaké"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Mariner"/>
+        <NamedIndividual IRI="#Venus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
+        <NamedIndividual IRI="#Mars"/>
+        <NamedIndividual IRI="#Terre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Mars"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Maven"/>
+        <NamedIndividual IRI="#Mars"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Mercure"/>
+        <NamedIndividual IRI="#Cérès"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Mercure"/>
+        <NamedIndividual IRI="#Venus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Mercure"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Mimas"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Mimas"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Miranda"/>
+        <NamedIndividual IRI="#Uranus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Miranda"/>
+        <NamedIndividual IRI="#Uranus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Near_Schoemaker"/>
+        <NamedIndividual IRI="#Eros"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Neowise"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <NamedIndividual IRI="#Terre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <NamedIndividual IRI="#Uranus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#New_Horizon"/>
+        <NamedIndividual IRI="#Charon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#New_Horizon"/>
+        <NamedIndividual IRI="#Pluton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Obéron"/>
+        <NamedIndividual IRI="#Uranus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Pallas"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Phobos"/>
+        <NamedIndividual IRI="#Cérès"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Phobos"/>
+        <NamedIndividual IRI="#Mars"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Phobos"/>
+        <NamedIndividual IRI="#Mars"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Pioneer"/>
+        <NamedIndividual IRI="#Mars"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Pluton"/>
+        <NamedIndividual IRI="#Charon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Pluton"/>
+        <NamedIndividual IRI="#Neptune"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Pluton"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Protée"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Rhéa"/>
+        <NamedIndividual IRI="#Cérès"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Rhéa"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Rhéa"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Rosetta"/>
+        <NamedIndividual IRI="#Tchoury"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <NamedIndividual IRI="#Mars"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Sedna"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Stardust"/>
+        <NamedIndividual IRI="#Wild"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Tchoury"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Terre"/>
+        <NamedIndividual IRI="#Mars"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Terre"/>
+        <NamedIndividual IRI="#Mercure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Terre"/>
+        <NamedIndividual IRI="#Venus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Terre"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Titan"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Titan"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Titan"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Titania"/>
+        <NamedIndividual IRI="#Neptune"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Titania"/>
+        <NamedIndividual IRI="#Uranus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRotationSynchroneAvec"/>
+        <NamedIndividual IRI="#Triton"/>
+        <NamedIndividual IRI="#Neptune"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Triton"/>
+        <NamedIndividual IRI="#Neptune"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Vega"/>
+        <NamedIndividual IRI="#Venus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Venera"/>
+        <NamedIndividual IRI="#Venus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+        <NamedIndividual IRI="#Venus"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+        <NamedIndividual IRI="#Venus"/>
+        <NamedIndividual IRI="#Mars"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Venus"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+        <NamedIndividual IRI="#Vesta"/>
+        <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Viking"/>
+        <NamedIndividual IRI="#Mars"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Voyager_1"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Voyager_1"/>
+        <NamedIndividual IRI="#Neptune"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Voyager_1"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Voyager_1"/>
+        <NamedIndividual IRI="#Uranus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Voyager_2"/>
+        <NamedIndividual IRI="#Jupiter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Voyager_2"/>
+        <NamedIndividual IRI="#Neptune"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Voyager_2"/>
+        <NamedIndividual IRI="#Saturne"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Voyager_2"/>
+        <NamedIndividual IRI="#Uranus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#Change&apos;e"/>
+        <NamedIndividual IRI="#Lune"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Albion"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Callisto"/>
+        <Literal>gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Callisto"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Charon"/>
+        <Literal>gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Charon"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#développeUneQueue"/>
+        <NamedIndividual IRI="#Comète_de_Halley"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Comète_de_Halley"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Cérès"/>
+        <Literal>gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Cérès"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Deimos"/>
+        <Literal>gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Deimos"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Dioné"/>
+        <Literal>gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Dioné"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUneActivitéInterne"/>
+        <NamedIndividual IRI="#Encelade"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Encelade"/>
+        <Literal>blanc bleutée</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Encelade"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Epiméthée"/>
+        <Literal>gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Epiméthée"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Eris"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Eros"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Europe"/>
+        <Literal>blanc avec des stries rouges</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Europe"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Ganymède"/>
+        <Literal>Gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Ganymède"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#développeUneQueue"/>
+        <NamedIndividual IRI="#Hale-Bopp"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Hale-Bopp"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#développeUneQueue"/>
+        <NamedIndividual IRI="#Haykutake"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Haykutake"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Hygie"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Hyperion"/>
+        <Literal>gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Hyperion"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUneActivitéInterne"/>
+        <NamedIndividual IRI="#Io"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Io"/>
+        <Literal>jaune</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Io"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densité"/>
+        <NamedIndividual IRI="#Itokawa"/>
+        <Literal>1,9 g/cm³</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#masse"/>
+        <NamedIndividual IRI="#Itokawa"/>
+        <Literal>35 milliards kg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRévolution"/>
+        <NamedIndividual IRI="#Itokawa"/>
+        <Literal>555 jours</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Itokawa"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">0.1565</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUneActivitéInterne"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal>bandes jaune orangé blanches</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densité"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal>1,32 kg/dm3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distance"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal>778600000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gazeuse"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#masse"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal>1 899 10^24kg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#possèdeDesAnneaux"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#possèdeUneAtmosphère"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRotation"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal>9h50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRévolution"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal>11,86 ans</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">71492.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Jupiter"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Lune"/>
+        <Literal>gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Lune"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Makémaké"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Mars"/>
+        <Literal>Rouge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Mars"/>
+        <Literal>rouge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densité"/>
+        <NamedIndividual IRI="#Mars"/>
+        <Literal>3,93 kg/dm3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distance"/>
+        <NamedIndividual IRI="#Mars"/>
+        <Literal>227900000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#masse"/>
+        <NamedIndividual IRI="#Mars"/>
+        <Literal>6,42 10^3 kg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#possèdeUneAtmosphère"/>
+        <NamedIndividual IRI="#Mars"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Mars"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3397.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Mars"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tellurique"/>
+        <NamedIndividual IRI="#Mars"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Mercure"/>
+        <Literal>gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densité"/>
+        <NamedIndividual IRI="#Mercure"/>
+        <Literal>5,42 km/dm3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distance"/>
+        <NamedIndividual IRI="#Mercure"/>
+        <Literal>57800000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRotation"/>
+        <NamedIndividual IRI="#Mercure"/>
+        <Literal>55j</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRévolution"/>
+        <NamedIndividual IRI="#Mercure"/>
+        <Literal>88j</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Mercure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2439.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Mercure"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tellurique"/>
+        <NamedIndividual IRI="#Mercure"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Mimas"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Miranda"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#développeUneQueue"/>
+        <NamedIndividual IRI="#Neowise"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Neowise"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUneActivitéInterne"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal>Bleue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densité"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal>1,63 kg/dm3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distance"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal>4495000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gazeuse"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#masse"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal>102 10^24 kg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#possèdeDesAnneaux"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#possèdeUneAtmosphère"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRotation"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal>16h03</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRévolution"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal>164,9 ans</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">24764.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Neptune"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Obéron"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Pallas"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Phobos"/>
+        <Literal>gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Phobos"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Pluton"/>
+        <Literal>gris rouge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Pluton"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Protée"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Rhéa"/>
+        <Literal>gris</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Rhéa"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <Literal>Beige bleutée</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densité"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <Literal>0,68 kg/dm3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distance"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <Literal>1433000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gazeuse"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#masse"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <Literal>568 10^24 kg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#possèdeDesAnneaux"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#possèdeUneAtmosphère"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRotation"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <Literal>11,5 h</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRévolution"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <Literal>29,5 ans</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">60268.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Saturne"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Sedna"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Soleil"/>
+        <Literal>jaune</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densité"/>
+        <NamedIndividual IRI="#Soleil"/>
+        <Literal>1,408 kg dm3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#engendreDesRéactionsNucléaires"/>
+        <NamedIndividual IRI="#Soleil"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#masse"/>
+        <NamedIndividual IRI="#Soleil"/>
+        <Literal>1,989 × 10^30 kg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRotation"/>
+        <NamedIndividual IRI="#Soleil"/>
+        <Literal>roation différentielle entre 24j(équateur) et 30j (pôles)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Soleil"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">696340.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Soleil"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#développeUneQueue"/>
+        <NamedIndividual IRI="#Tchoury"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Tchoury"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#développeUneQueue"/>
+        <NamedIndividual IRI="#Tempel_1"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Tempel_1"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUneActivitéInterne"/>
+        <NamedIndividual IRI="#Terre"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Terre"/>
+        <Literal>Bleue</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distance"/>
+        <NamedIndividual IRI="#Terre"/>
+        <Literal>149600000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#possèdeUneAtmosphère"/>
+        <NamedIndividual IRI="#Terre"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRotation"/>
+        <NamedIndividual IRI="#Terre"/>
+        <Literal>23h56</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRévolution"/>
+        <NamedIndividual IRI="#Terre"/>
+        <Literal>365.25 j</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Terre"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">6378.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Terre"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tellurique"/>
+        <NamedIndividual IRI="#Terre"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Titan"/>
+        <Literal>beige</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#possèdeUneAtmosphère"/>
+        <NamedIndividual IRI="#Titan"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Titan"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Titania"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Triton"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#aUneActivitéInterne"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <Literal>Turquoise</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densité"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <Literal>1,27 kg/dm3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distance"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <Literal>2872000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gazeuse"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#masse"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <Literal>86,8 10^24 kg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#possèdeUneAtmosphère"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRotation"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <Literal>17h24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#périodeDeRévolution"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <Literal>84 ans</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">25559.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Uranus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#couleur"/>
+        <NamedIndividual IRI="#Venus"/>
+        <Literal>Beige</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#densité"/>
+        <NamedIndividual IRI="#Venus"/>
+        <Literal>5,24 km/dm3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#distance"/>
+        <NamedIndividual IRI="#Venus"/>
+        <Literal>108200000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#masse"/>
+        <NamedIndividual IRI="#Venus"/>
+        <Literal>4,87 10^24 kg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#possèdeUneAtmosphère"/>
+        <NamedIndividual IRI="#Venus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Venus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">6053.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sphérique"/>
+        <NamedIndividual IRI="#Venus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tellurique"/>
+        <NamedIndividual IRI="#Venus"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#irrégulière"/>
+        <NamedIndividual IRI="#Vesta"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#développeUneQueue"/>
+        <NamedIndividual IRI="#Wild"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#aCommeSatellite"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#aVisité"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aCommeSatellite"/>
+        <ObjectProperty IRI="#tourneAutourDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aEtéVisitéPar"/>
+        <ObjectProperty IRI="#aVisité"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aMoinsDeSatellitesQue"/>
+        <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#estEnRésonanceOrbitaleAvec"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+    </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
+    </ReflexiveObjectProperty>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#densité"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#gazeuse"/>
+        <DataProperty IRI="#nature"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#irrégulière"/>
+        <DataProperty IRI="#forme"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#masse"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#nature"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#possèdeUneAtmosphère"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#sphérique"/>
+        <DataProperty IRI="#forme"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tellurique"/>
+        <DataProperty IRI="#nature"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#rayon"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#sphérique"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#développeUneQueue"/>
+        <Class IRI="#Comètes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gazeuse"/>
+        <Class IRI="#Planètes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tellurique"/>
+        <Class IRI="#Planètes"/>
+    </DataPropertyDomain>
+    <DisjointDataProperties>
+        <DataProperty IRI="#gazeuse"/>
+        <DataProperty IRI="#tellurique"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#irrégulière"/>
+        <DataProperty IRI="#sphérique"/>
+    </DisjointDataProperties>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
