@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/IA301/ontologies/2021/11/systeme_solaire">
-    <Prefix name="" IRI="http://www.semanticweb.org/IA301/ontologies/2021/11/systeme_solaire#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/IA301/ontologies/2021/11/systeme_solaire"/>
     <Prefix name="g" IRI="http://www.semanticweb.org/IA301/ontologies/2021/11/systeme_solaire/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -53,13 +53,13 @@
         <ObjectProperty IRI="#aEtéVisitéPar"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#aVisité"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#aMoinsDeSatellitesQue"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aVisité"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
@@ -1287,6 +1287,16 @@
         <Literal>gris</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#distance"/>
+        <NamedIndividual IRI="#Callisto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1880000.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Callisto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2410.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#sphérique"/>
         <NamedIndividual IRI="#Callisto"/>
         <Literal></Literal>
@@ -1382,6 +1392,16 @@
         <Literal>blanc avec des stries rouges</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#distance"/>
+        <NamedIndividual IRI="#Europe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">671100.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Europe"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1560.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#sphérique"/>
         <NamedIndividual IRI="#Europe"/>
         <Literal></Literal>
@@ -1442,6 +1462,16 @@
         <Literal>jaune</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#distance"/>
+        <NamedIndividual IRI="#Io"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">421800.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#rayon"/>
+        <NamedIndividual IRI="#Io"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1821.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#sphérique"/>
         <NamedIndividual IRI="#Io"/>
         <Literal></Literal>
@@ -1484,7 +1514,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distance"/>
         <NamedIndividual IRI="#Jupiter"/>
-        <Literal>778600000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">7.786E8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#gazeuse"/>
@@ -1559,7 +1589,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distance"/>
         <NamedIndividual IRI="#Mars"/>
-        <Literal>227900000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.279E8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#masse"/>
@@ -1599,7 +1629,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distance"/>
         <NamedIndividual IRI="#Mercure"/>
-        <Literal>57800000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">5.78E7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#périodeDeRotation"/>
@@ -1664,7 +1694,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distance"/>
         <NamedIndividual IRI="#Neptune"/>
-        <Literal>4495000000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.4950001E9</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#gazeuse"/>
@@ -1764,7 +1794,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distance"/>
         <NamedIndividual IRI="#Saturne"/>
-        <Literal>1433000000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.43299994E9</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#gazeuse"/>
@@ -1879,7 +1909,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distance"/>
         <NamedIndividual IRI="#Terre"/>
-        <Literal>149600000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.496E8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#possèdeUneAtmosphère"/>
@@ -1954,7 +1984,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distance"/>
         <NamedIndividual IRI="#Uranus"/>
-        <Literal>2872000000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.872E9</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#gazeuse"/>
@@ -2004,7 +2034,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#distance"/>
         <NamedIndividual IRI="#Venus"/>
-        <Literal>108200000</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">1.082E8</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#masse"/>
@@ -2046,11 +2076,11 @@
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#aVisité"/>
+        <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
+        <ObjectProperty IRI="#aVisité"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
@@ -2130,6 +2160,14 @@
         <DataProperty IRI="#tellurique"/>
         <Class IRI="#Planètes"/>
     </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#distance"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rayon"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
     <DisjointDataProperties>
         <DataProperty IRI="#gazeuse"/>
         <DataProperty IRI="#tellurique"/>
