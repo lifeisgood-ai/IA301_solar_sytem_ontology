@@ -152,6 +152,9 @@
         <NamedIndividual IRI="#Albion"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BepiColombo"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Callisto"/>
     </Declaration>
     <Declaration>
@@ -357,9 +360,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#p_Europe"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#p_Inde"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#p_Japon"/>
@@ -717,6 +717,11 @@
         <ObjectProperty IRI="#tourneAutourDe"/>
         <NamedIndividual IRI="#Albion"/>
         <NamedIndividual IRI="#Soleil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aVisité"/>
+        <NamedIndividual IRI="#BepiColombo"/>
+        <NamedIndividual IRI="#Mercure"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
@@ -1325,8 +1330,93 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_Chine"/>
+        <NamedIndividual IRI="#Change&apos;e"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_Europe"/>
+        <NamedIndividual IRI="#Cassini_Huygens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_Europe"/>
+        <NamedIndividual IRI="#Rosetta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_Japon"/>
+        <NamedIndividual IRI="#BepiColombo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_Russie"/>
+        <NamedIndividual IRI="#Luna"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_Russie"/>
+        <NamedIndividual IRI="#Vega"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_Russie"/>
+        <NamedIndividual IRI="#Venera"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_USA"/>
+        <NamedIndividual IRI="#BepiColombo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_USA"/>
+        <NamedIndividual IRI="#Cassini_Huygens"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
         <NamedIndividual IRI="#p_USA"/>
         <NamedIndividual IRI="#Galileo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_USA"/>
+        <NamedIndividual IRI="#Magellan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_USA"/>
+        <NamedIndividual IRI="#Mariner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_USA"/>
+        <NamedIndividual IRI="#Maven"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_USA"/>
+        <NamedIndividual IRI="#Near_Schoemaker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_USA"/>
+        <NamedIndividual IRI="#Pioneer"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_USA"/>
+        <NamedIndividual IRI="#Stardust"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_USA"/>
+        <NamedIndividual IRI="#Voyager_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_USA"/>
+        <NamedIndividual IRI="#Voyager_2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#aVisité"/>
@@ -2137,6 +2227,10 @@
         <ObjectProperty IRI="#aLancé"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#aEteObjectifDe"/>
+        <ObjectProperty IRI="#aRéaliséUneMissionVers"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#aEtéVisitéPar"/>
         <ObjectProperty IRI="#aVisité"/>
     </InverseObjectProperties>
@@ -2156,12 +2250,9 @@
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
     </TransitiveObjectProperty>
-    <ReflexiveObjectProperty>
-        <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
-    </ReflexiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#aEteLancéPar"/>
-        <Class IRI="#Pays"/>
+        <Class IRI="#ObjetsArtificiels"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#aEteObjectifDe"/>
@@ -2169,7 +2260,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#aLancé"/>
-        <Class IRI="#ObjetsArtificiels"/>
+        <Class IRI="#Pays"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#aRéaliséUneMissionVers"/>
@@ -2177,7 +2268,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#aEteLancéPar"/>
-        <Class IRI="#ObjetsArtificiels"/>
+        <Class IRI="#Pays"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#aEteObjectifDe"/>
@@ -2185,7 +2276,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#aLancé"/>
-        <Class IRI="#Pays"/>
+        <Class IRI="#ObjetsArtificiels"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#aRéaliséUneMissionVers"/>
@@ -2257,6 +2348,34 @@
         <DataProperty IRI="#irrégulière"/>
         <DataProperty IRI="#sphérique"/>
     </DisjointDataProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aEteObjectifDe</IRI>
+        <Literal>Relation Astres à Pays
+
+ex: Jupiter aEteObjectif de USA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aEtéVisitéPar</IRI>
+        <Literal>Relation de Astre et objetArtficiel
+
+Un Astre aEteVisitéPar un objetArtificiel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aRéaliséUneMissionVers</IRI>
+        <Literal>Relation Pays à Astre
+
+ex: Chine aRéaliséUneMissionVers Mars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aVisité</IRI>
+        <Literal>Relation de objetArtficiel et Astre
+
+Un objetArtificiel aVisité un Astre</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
