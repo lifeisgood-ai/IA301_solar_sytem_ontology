@@ -38,6 +38,15 @@
         <Class IRI="#ObjetsArtificiels"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Organisme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrigineLancement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pays"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Planètes"/>
     </Declaration>
     <Declaration>
@@ -50,13 +59,25 @@
         <ObjectProperty IRI="#aCommeSatellite"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#aEteLancéPar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aEteObjectifDe"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#aEtéVisitéPar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aLancé"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#aMoinsDeSatellitesQue"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aRéaliséUneMissionVers"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#aVisité"/>
@@ -332,6 +353,24 @@
         <NamedIndividual IRI="#Wild"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#p_Chine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#p_Europe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#p_Inde"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#p_Japon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#p_Russie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#p_USA"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Change&apos;e"/>
     </Declaration>
     <SubClassOf>
@@ -357,6 +396,14 @@
     <SubClassOf>
         <Class IRI="#Objet-Transneptuniens"/>
         <Class IRI="#Ceinture_de_Kuiper"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organisme"/>
+        <Class IRI="#OrigineLancement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pays"/>
+        <Class IRI="#OrigineLancement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Planètes"/>
@@ -822,6 +869,11 @@
         <NamedIndividual IRI="#Jupiter"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aEteLancéPar"/>
+        <NamedIndividual IRI="#Giotto"/>
+        <NamedIndividual IRI="#p_Europe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#aVisité"/>
         <NamedIndividual IRI="#Giotto"/>
         <NamedIndividual IRI="#Comète_de_Halley"/>
@@ -1270,6 +1322,11 @@
         <ObjectProperty IRI="#aVisité"/>
         <NamedIndividual IRI="#Voyager_2"/>
         <NamedIndividual IRI="#Uranus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aLancé"/>
+        <NamedIndividual IRI="#p_USA"/>
+        <NamedIndividual IRI="#Galileo"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#aVisité"/>
@@ -2071,21 +2128,13 @@
         <NamedIndividual IRI="#Wild"/>
         <Literal></Literal>
     </DataPropertyAssertion>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#aCommeSatellite"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#aPlusDeSatellitesQue"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#aVisité"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#aCommeSatellite"/>
         <ObjectProperty IRI="#tourneAutourDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aEteLancéPar"/>
+        <ObjectProperty IRI="#aLancé"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#aEtéVisitéPar"/>
@@ -2110,6 +2159,38 @@
     <ReflexiveObjectProperty>
         <ObjectProperty IRI="#estDeLaMêmeCouleurQue"/>
     </ReflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aEteLancéPar"/>
+        <Class IRI="#Pays"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aEteObjectifDe"/>
+        <Class IRI="#Astres"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aLancé"/>
+        <Class IRI="#ObjetsArtificiels"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aRéaliséUneMissionVers"/>
+        <Class IRI="#Pays"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aEteLancéPar"/>
+        <Class IRI="#ObjetsArtificiels"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aEteObjectifDe"/>
+        <Class IRI="#Pays"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aLancé"/>
+        <Class IRI="#Pays"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aRéaliséUneMissionVers"/>
+        <Class IRI="#Astres"/>
+    </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#densité"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
